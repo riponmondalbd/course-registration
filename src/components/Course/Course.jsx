@@ -4,7 +4,7 @@ import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import './Course.css';
 import PropTypes from 'prop-types';
 
-const Course = ({ course }) => {
+const Course = ({ course, handleAddToCourse }) => {
     const { image, course_name, details, price, credit } = course;
     return (
         <div className='single-course'>
@@ -17,13 +17,14 @@ const Course = ({ course }) => {
                 <span className='course-price'><p><FontAwesomeIcon icon={faDollarSign} />  Price: {price}</p></span>
                 <span><p><FontAwesomeIcon icon={faBookOpen} />  Credit: {credit}hr</p></span>
             </div>
-            <button className='select-button'>Select</button>
+            <button onClick={() => handleAddToCourse(course)} className='select-button'>Select</button>
         </div>
 
     );
 };
 Course.propTypes = {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleAddToCourse: PropTypes.func
 }
 
 export default Course;
