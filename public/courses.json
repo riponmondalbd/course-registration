@@ -2,7 +2,7 @@
     {
         "id": 1,
         "image": "https://i.ibb.co/s9y6znM/pexels-katerina-holmes-5905452.jpg",
-        "course_name": "Introduction to Python Programming",
+        "course_name": "Introduction to Python",
         "credit": 6,
         "price": 25000,
         "details": "Learn Python basics, data structures, loops, functions, and more. Start your journey in programming with this comprehensive course."
