@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/s9y6znM/pexels-katerina-holmes-5905452.jpg",
+        "course_name": "Introduction to Python Programming",
+        "credit": 6,
+        "price": 25000,
+        "details": "Learn Python basics, data structures, loops, functions, and more. Start your journey in programming with this comprehensive course."
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/m4m6KV4/pexels-charlotte-may-5965857.jpg",
+        "course_name": "Web Development Bootcamp",
+        "credit": 8,
+        "price": 20000,
+        "details": "Master full-stack web development with HTML, CSS, JavaScript, Node.js, MongoDB, and more. Build real-world projects and launch your career."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/596qXcr/pexels-monstera-production-6281877.jpg",
+        "course_name": "Machine Learning Fundamentals",
+        "credit": 4,
+        "price": 15000,
+        "details": "Get started with machine learning basics: supervised learning, unsupervised learning, regression, classification, and clustering algorithms."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/cy2vCfw/pexels-katerina-holmes-5905706.jpg",
+        "course_name": "Graphic Design Essentials",
+        "credit": 2,
+        "price": 30000,
+        "details": "Learn graphic design essentials: typography, color theory, layout, and image manipulation with Adobe Creative Suite."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/K71rv04/pexels-karolina-grabowska-4195504.jpg",
+        "course_name": "Financial Planning and Analysis",
+        "credit": 7,
+        "price": 12000,
+        "details": "Master financial planning, budgeting, forecasting, and analysis techniques essential for corporate decision-making."
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/svqdhBR/pexels-karolina-grabowska-4219044.jpg",
+        "course_name": "Digital Marketing Strategies",
+        "credit": 5,
+        "price": 18000,
+        "details": "Explore the latest digital marketing trends and strategies: SEO, social media, content marketing, email marketing, and analytics."
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/FJXxJ0K/pexels-karolina-grabowska-4491461.jpg",
+        "course_name": "Photography Masterclass",
+        "credit": 3,
+        "price": 25000,
+        "details": "Enhance your photography skills with this comprehensive masterclass covering camera settings, composition, lighting, and post-processing techniques."
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/7kTxTQq/pexels-polina-tankilevitch-4443160.jpg",
+        "course_name": "Data Analysis with Python",
+        "credit": 9,
+        "price": 35000,
+        "details": "Learn data analysis with Python: Pandas, NumPy, Matplotlib. Explore data manipulation, cleaning, and statistical analysis techniques."
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/ygs1z9w/pexels-mikhail-nilov-9207747.jpg",
+        "course_name": "Mobile App Development",
+        "credit": 10,
+        "price": 40000,
+        "details": "Build mobile apps for iOS and Android with React Native and Flutter. Cover app design, development, testing, and deployment."
+    }
+]
