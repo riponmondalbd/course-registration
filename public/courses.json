@@ -13,7 +13,7 @@
         "course_name": "Web Development Bootcamp",
         "credit": 8,
         "price": 20000,
-        "details": "Master full-stack web development with HTML, CSS, JavaScript, Node.js, MongoDB, and more. Build real-world projects and launch your career."
+        "details": "Master full-stack web development with HTML, CSS, JavaScript, Node.js, MongoDB, and more. Build real-world projects and launch your."
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "course_name": "Machine Learning Fundamentals",
         "credit": 4,
         "price": 15000,
-        "details": "Get started with machine learning basics: supervised learning, unsupervised learning, regression, classification, and clustering algorithms."
+        "details": "Get started with machine learning basics: supervised learning, unsupervised learning, regression, classification, and clustering."
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@
         "course_name": "Photography Masterclass",
         "credit": 3,
         "price": 25000,
-        "details": "Enhance your photography skills with this comprehensive masterclass covering camera settings, composition, lighting, and post-processing techniques."
+        "details": "Enhance your photography skills with this comprehensive masterclass covering camera settings, composition, lightings."
     },
     {
         "id": 8,

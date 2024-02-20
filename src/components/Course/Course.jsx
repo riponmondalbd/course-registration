@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import './Course.css';
+import PropTypes from 'prop-types';
 
 const Course = ({ course }) => {
     const { image, course_name, details, price, credit } = course;
@@ -21,5 +22,8 @@ const Course = ({ course }) => {
 
     );
 };
+Course.propTypes = {
+    course: PropTypes.object.isRequired
+}
 
 export default Course;
