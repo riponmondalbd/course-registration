@@ -1,12 +1,29 @@
 import PropTypes from "prop-types";
+import { FiDollarSign } from "react-icons/fi";
+import { PiBookOpenLight } from "react-icons/pi";
 
 const Course = ({ course }) => {
   const { id, image, title, description, price, time } = course;
   return (
-    <div>
-      <img src={image} alt="" />
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <div className="bg-white p-4 rounded-xl">
+      <img className="rounded-lg" src={image} alt="" />
+      <h3 className="text-lg font-semibold mt-4 mb-3">{title}</h3>
+      <p className="text-[#1c1b1b99] text-sm font-normal">{description}</p>
+      <div className="flex justify-between mt-4 mb-6">
+        <div className="flex ">
+          <FiDollarSign className="text-2xl" />
+          <p className="text-[#1c1b1b99] text-base font-medium ml-3">
+            Price: {price}
+          </p>
+        </div>
+        <div className="flex">
+          <PiBookOpenLight className="text-2xl" />
+          <p className="text-[#1c1b1b99] text-base font-medium ml-3">
+            Credit: {time}hr
+          </p>
+        </div>
+      </div>
+      <button>Select</button>
     </div>
   );
 };
