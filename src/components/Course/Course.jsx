@@ -23,7 +23,9 @@ const Course = ({ course }) => {
           </p>
         </div>
       </div>
-      <button>Select</button>
+      <button className="text-lg font-semibold bg-[#2F80ED] text-white w-full rounded-lg py-[9px]">
+        Select
+      </button>
     </div>
   );
 };
