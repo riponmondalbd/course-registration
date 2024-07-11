@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FiDollarSign } from "react-icons/fi";
 import { PiBookOpenLight } from "react-icons/pi";
 
-const Course = ({ course }) => {
+const Course = ({ course, handleSelect }) => {
   const { id, image, title, description, price, time } = course;
   return (
     <div className="bg-white p-4 rounded-xl">
@@ -23,13 +23,19 @@ const Course = ({ course }) => {
           </p>
         </div>
       </div>
-      <button className="text-lg font-semibold bg-[#2F80ED] text-white w-full rounded-lg py-[9px]">
+      <button
+        onClick={() => handleSelect(course)}
+        className="text-lg font-semibold bg-[#2F80ED] text-white w-full rounded-lg py-[9px]"
+      >
         Select
       </button>
     </div>
   );
 };
 
-Course.propTypes = {};
+Course.propTypes = {
+  course: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func.isRequired,
+};
 
 export default Course;

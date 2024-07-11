@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({ handleSelect }) => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -15,12 +15,18 @@ const Courses = () => {
   return (
     <div className="md:w-3/4 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       {courses.map((course) => (
-        <Course key={course.id} course={course}></Course>
+        <Course
+          key={course.id}
+          course={course}
+          handleSelect={handleSelect}
+        ></Course>
       ))}
     </div>
   );
 };
 
-Courses.propTypes = {};
+Courses.propTypes = {
+  handleSelect: PropTypes.func.isRequired,
+};
 
 export default Courses;
