@@ -10,20 +10,23 @@ function App() {
   const [hourCount, setHourCount] = useState(20);
 
   const handleSelect = (course) => {
-    // add course name
-    setCourseTitle([...courseTitle, course]);
-    // add total course hours
-    SetCourseHour(courseHour + course.time);
-    // add course Price
-    SetCoursePrice(coursePrice + course.price);
-    // hour count
-    setHourCount(hourCount - course.time);
-  };
+    const exist = courseTitle.find((courseId) => courseId.id === course.id);
 
-  if (hourCount < 0) {
-    alert("YOU REACH YOUR LIMIT");
-    return;
-  }
+    if (exist) {
+      alert("Already Added the course");
+    } else if (hourCount - course.time < 0) {
+      alert("YOU REACH YOUR LIMIT");
+    } else {
+      // add course name
+      setCourseTitle([...courseTitle, course]);
+      // add total course hours
+      SetCourseHour(courseHour + course.time);
+      // add course Price
+      SetCoursePrice(coursePrice + course.price);
+      // hour count
+      setHourCount(hourCount - course.time);
+    }
+  };
 
   return (
     <>
