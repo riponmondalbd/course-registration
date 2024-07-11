@@ -3,7 +3,7 @@ import { FiDollarSign } from "react-icons/fi";
 import { PiBookOpenLight } from "react-icons/pi";
 
 const Course = ({ course, handleSelect }) => {
-  const { id, image, title, description, price, time } = course;
+  const { image, title, description, price, time } = course;
   return (
     <div className="bg-white p-4 rounded-xl">
       <img className="rounded-lg" src={image} alt="" />

@@ -5,19 +5,32 @@ import Header from "./components/Header/Header";
 
 function App() {
   const [courseTitle, setCourseTitle] = useState([]);
-  const [courseHourse, SetCourseHour] = useState(0);
+  const [courseHour, SetCourseHour] = useState(0);
+  const [coursePrice, SetCoursePrice] = useState(0);
+  const [hourCount, setHourCount] = useState(20);
 
   const handleSelect = (course) => {
-    console.log("click select", course);
     // add course name
     setCourseTitle([...courseTitle, course]);
+    // add total course hours
+    SetCourseHour(courseHour + course.time);
+    // add course Price
+    SetCoursePrice(coursePrice + course.price);
+    // hour count
+    setHourCount(hourCount - course.time);
   };
+
   return (
     <>
       <Header />
       <div className="container mx-auto flex-col-reverse flex md:flex-row gap-6">
         <Courses handleSelect={handleSelect} />
-        <CourseCalculations courseTitle={courseTitle} />
+        <CourseCalculations
+          courseTitle={courseTitle}
+          courseHour={courseHour}
+          coursePrice={coursePrice}
+          hourCount={hourCount}
+        />
       </div>
     </>
   );
