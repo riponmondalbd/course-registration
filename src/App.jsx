@@ -20,6 +20,11 @@ function App() {
     setHourCount(hourCount - course.time);
   };
 
+  if (hourCount < 0) {
+    alert("YOU REACH YOUR LIMIT");
+    return;
+  }
+
   return (
     <>
       <Header />
