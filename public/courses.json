@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "image1.jpg",
+    "image": "https://i.ibb.co/fv19t1K/1.jpg",
     "title": "Introduction to C Programming",
     "description": "A course on C programming basics: syntax, variables, loops, and functions. Ideal for beginners.",
     "price": 15000,
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "image2.jpg",
+    "image": "https://i.ibb.co/hR5JyNp/5.jpg",
     "title": "Introduction to Algorithms",
     "description": "Learn algorithm fundamentals: sorting, searching, and efficiency. Essential for computer science students.",
     "price": 25000,
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "image3.jpg",
+    "image": "https://i.ibb.co/26pvGcT/3.jpg",
     "title": "Introduction to C++ for DSA",
     "description": "Intro to using C++ for Data Structures and Algorithms: classes, templates, and standard libraries.",
     "price": 10000,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "image4.jpg",
+    "image": "https://i.ibb.co/QQ2QwHK/9.jpg",
     "title": "Basic Data Structures",
     "description": "Explore data structures: arrays, linked lists, stacks, queues, and trees. Key for efficient coding.",
     "price": 35000,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "image": "image5.jpg",
+    "image": "https://i.ibb.co/W3qZksk/8.jpg",
     "title": "Introduction to OOP Python",
     "description": "Learn OOP concepts in Python: classes, inheritance, and polymorphism. Great for advanced Python learners.",
     "price": 19000,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "image": "image6.jpg",
+    "image": "https://i.ibb.co/PWmF6GG/7.jpg",
     "title": "Software Engineering",
     "description": "Comprehensive course on software development: methodologies, project management, and best practices.",
     "price": 23000,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "image": "image7.jpg",
+    "image": "https://i.ibb.co/Y0zwCn0/6.jpg",
     "title": "AWS, Cloud Computing",
     "description": "In-depth course on AWS: cloud infrastructure, services, and deployment strategies.",
     "price": 35000,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "image": "image9.jpg",
+    "image": "https://i.ibb.co/SPFYjdk/4.jpg",
     "title": "Database (MySQL)",
     "description": "Beginner's guide to MySQL: database design, queries, and optimization techniques.",
     "price": 19000,
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "image": "image10.jpg",
+    "image": "https://i.ibb.co/THd89Zw/2.jpg",
     "title": "Problem-Solving Part",
     "description": "Enhance problem-solving skills: practical algorithmic challenges and competitive programming.",
     "price": 23000,
